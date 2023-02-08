@@ -85,8 +85,6 @@ while True:
 
                 DISPLAYSURF.blit(textSurface,textRecObj)
 
-            if event.type==KEYDOWN:
-                if event.unicode =="n":
-                    DISPLAYSURF.fill(BLACK)
+
         pygame.display.update()
 
